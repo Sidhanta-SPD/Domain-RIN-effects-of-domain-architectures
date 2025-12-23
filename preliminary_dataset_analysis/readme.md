@@ -1,7 +1,10 @@
 # Preliminary analysis of the dataset  
 
-## Type1
+
 **dom_supfam.py** --- py for understaning types of superfamilies and their frequency in the dataset.  
+
+
+## Type1
 **seq_aln_case1.sh** --- shell script to align sequences (atom records) of domains in pdbs using muscle and find seq id using clustalw2.  
 **seq_aln_result.sh** --- shell script to extract the seq id % from the pim matrix  
 **seq_aln_results** --- output of the *seq_aln_results.sh*  
@@ -36,7 +39,7 @@
 
 
 ## Type3
-*All codes are similar to Type2*
+*All codes are similar to Type2*  
 **dom_size_case2** --- domain length, alignment length and length coverage  
 **tm-scores_case2** --- tm score of the alignment  
 __keep*__ --- pdbs to work with. TM>0.5 and coverage>0.5. wc 139+25+52+54  
