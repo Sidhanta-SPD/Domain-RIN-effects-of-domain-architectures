@@ -34,7 +34,7 @@
 
 **nox_domain_details_f_no_mut** --- formatted CATHS details of no mutation pdbs. wc 294*2=588.  
 
-**Check insertion code**
+**Check insertion code**  
 `for i in $(awk 'NR>1 {print $1}' nox_domain_details2);do echo $i;cd inputs/$i;grep "^ATOM" $i.pdb| cut -c 27|uniq;cd ../..;done`  
 
 **insertion_code_pdbs** --- pdbs which has insertion codes.Removed. wc 6.  
